@@ -1,0 +1,47 @@
+#one {
+    width: 20%
+}
+
+#two {
+    width: 20%
+}
+
+#three {
+    width: 20%
+}
+
+#four {
+    width: 20%
+}
+
+body {
+
+    background-image: url("https://awesomewallpapers.files.wordpress.com/2014/02/sparkling-crystal-close-up-15935.jpg");
+    color:rgba(255, 255, 255, 0.685);
+}
+
+.jumbotron {
+
+    background-color: rgba(68, 92, 112, 0.77) !important;
+    color:rgba(255, 255, 255, 0.685);
+}
+
+.header {
+
+    color:rgba(255, 255, 255, 0.685);
+}
+
+.winsAndLosses {
+
+    color:rgba(255, 255, 255, 0.685);
+}
+
+.numberToMatch {
+
+    color:rgba(255, 255, 255, 0.685);
+}
+
+.userTotal {
+
+    color:rgba(255, 255, 255, 0.685);
+}

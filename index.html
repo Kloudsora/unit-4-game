@@ -1,1 +1,84 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Crystal Collector!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+     src="https://code.jquery.com/jquery-3.3.1.min.js"
+     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script><link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+</head>
 
+<body>
+    <div class="header">
+        
+        <H1>Crystal Collector!</H1>
+    </div>
+
+
+
+    <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Instructions</h1>
+              <p class="lead"></br>
+                <li>At the start of the game you will be given a random number </li>
+                <li>Below are four crystals. Clicking on one of the crytals will add a certain amount of points to your score.</li>
+                <li>In order to win you will be  matching your total score to the predifined random number, if your total score goes above the random number you lose.</li>
+                <li>Untill you click on a crystal the value of the crystals is hidden.</li>
+                <li>The game changes the values of each crystal each time the game restarts.</li>.</p>
+         
+            </div>
+        </div>
+ 
+    
+
+
+
+    <div class="numberToMatch">
+            <h2>Number To Get:
+                <span id= "randomNumber"></span>
+            </h2>
+    </div>
+
+        
+        
+        
+    <div class="winsAndLosses">
+            <h2>Wins:
+                <span id= "numberWins"></span>
+                </br>
+                Losses: 
+                <span id= "numberLosses"></span>
+            </h2>
+    </div>
+
+    <div class="gems">
+            <img src="assets/images/blue.png" class=gemImage id="one" alt="Blue Gem">
+            <img src="assets/images/green.png" class=gemImage id="two" alt="Green Gem">
+            <img src="assets/images/red.png" class=gemImage id= "three" alt="Red Gem">
+            <img src="assets/images/yellow.png" class=gemImage id= "four" alt="Yellow Gem">
+        </div>
+        <div class="userTotal">
+            <h2>Your total score is:
+                <span id="finalTotal"></span>
+            </h2>
+
+
+ </div>   
+
+
+
+
+
+
+
+
+
+</body>
+</html>
